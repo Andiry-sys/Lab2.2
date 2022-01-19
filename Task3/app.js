@@ -2,9 +2,9 @@ let _fruits = ["apples", "oranges", "mango", "cherry", "peach", "banana"];
 _fruits.sort();
 let html = "<ul>";
 _fruits.forEach(function (item, i, array) {
-  html += "<li>" + item + "<li>";
+  html += "<li>" + item + "</li>";
 });
-html += "<ul>";
+html += "</ul>";
 document.write(html);
 
 let _fruit = prompt(`Enter name fruist`);
